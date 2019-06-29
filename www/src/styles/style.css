@@ -1,10 +1,10 @@
-body {
-    background: linear-gradient(to top, #fc466b, #3f5efb);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    color: #fff;
-    text-align: center;
+html {
+  background: linear-gradient(to top, #fc466b, #3f5efb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #fff;
+  text-align: center;
 }
