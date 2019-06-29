@@ -1,7 +1,7 @@
 import React from 'react'
 import usePosts from './hooks/usePosts'
 import PostList from './components/PostList'
-
+import './styles/style.css'
 const App = () => {
   const [posts] = usePosts()
 
