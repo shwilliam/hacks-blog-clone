@@ -1,17 +1,14 @@
 import React from 'react'
-import {Grommet, Heading} from 'grommet'
 import PostList from './components/PostList'
-
 import './styles/style.css'
-import theme from './styles/theme'
 
 export default () => (
-  <Grommet theme={theme}>
+  <div id="app">
     <header>
-      <Heading>WP + React</Heading>
+      <h1>WP + React</h1>
     </header>
     <main>
       <PostList />
     </main>
-  </Grommet>
+  </div>
 )
