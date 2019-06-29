@@ -1,4 +1,4 @@
-# wp-react-boiler
+# wp-react-untitled
 
 ## setup
 
