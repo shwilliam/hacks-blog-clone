@@ -1,8 +1,10 @@
 import React from 'react'
 import PostList from './components/PostList'
+
+// global styles
 import './styles/style.css'
 
-export default () => (
+const App = () => (
   <div id="app">
     <header>
       <h1>WP + React</h1>
@@ -12,3 +14,5 @@ export default () => (
     </main>
   </div>
 )
+
+export default App
