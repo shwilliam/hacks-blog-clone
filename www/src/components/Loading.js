@@ -1,3 +1,4 @@
 import React from 'react'
+import '../styles/loader.css'
 
-export default () => <p>loading...</p>
+export default () => <div className="loader"></div>
