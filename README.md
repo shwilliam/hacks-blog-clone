@@ -1,13 +1,9 @@
-# wp-react-untitled
+# hacks-blog-clone
 
-## setup
+> A simplistic clone of Mozilla's [hacks blog](https://hacks.mozilla.org/) built with WordPress & React
 
-- fork & clone repo into your chosen php dev environment's site folder (eg. `www/`, `htdocs/`)
-- create a new db (w/ phpMyAdmin)
-- copy & rename `wp-config-sample.php` to `wp-config.php`
-- fill `wp-config.php` with your db name & credentials
-- navigate to `http://localhost/wp-react-untitled/wp-admin/install.php` & follow on-screen the prompts to set up your admin account
-- start your php dev env
-- navigate into `www/` and install npm dependencies (`cd www && npm i`)
-- locally serve up the client by running `npm start`
-- visit http://localhost:3000/
+## development
+
+1. set up a local WP site named `hacks-blog-clone` (see [this blog post](https://www.smashingmagazine.com/2018/04/wordpress-local-development-beginners-setup-deployment/))
+2. install project dependencies (`npm i`)
+3. run the site in development mode (`npm start`)
